@@ -1,7 +1,7 @@
 %include	/usr/lib/rpm/macros.php
 %define         _class          Text
 %define         _subclass       Diff
-%define		_status		alpha
+%define		_status		beta
 %define		_pearname	%{_class}_%{_subclass}
 
 Summary:	%{_pearname} - Engine for performing and rendering text diffs
