@@ -13,7 +13,6 @@ License:	PHP 2.02
 Group:		Development/Languages/PHP
 Source0:	http://pear.php.net/get/%{_pearname}-%{version}.tgz
 # Source0-md5:	51c69f16b373f75cb8dcf7c0247d7b94
-# Source0-size:	11566
 URL:		http://pear.php.net/package/Text_Diff/
 BuildRequires:	rpm-php-pearprov >= 4.0.2-98
 Requires:	php-pear
