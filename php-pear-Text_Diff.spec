@@ -23,7 +23,7 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 This package provides a text-based diff engine and renderers for
 multiple diff output formats. 
 
-This class has in PEAR status: %{_status}.
+In PEAR status of this package is: %{_status}.
 
 %description -l pl
 Ten pakiet dostarcza silnik do przetwarzania ró¿nic miêdzy tekstami
