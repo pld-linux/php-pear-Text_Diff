@@ -7,12 +7,12 @@
 Summary:	%{_pearname} - Engine for performing and rendering text diffs
 Summary(pl):	%{_pearname} - Silnik do przetwarzania i generowania ró¿nic pomiêdzy tekstami
 Name:		php-pear-%{_pearname}
-Version:	0.0.2
+Version:	0.0.3
 Release:	1
 License:	PHP 2.02
 Group:		Development/Languages/PHP
 Source0:	http://pear.php.net/get/%{_pearname}-%{version}.tgz
-# Source0-md5:	f4b5372eb69b98769b6d5e29f22f5f5d
+# Source0-md5:	e621bff6b173f68c22f66b3871d42ae5
 URL:		http://pear.php.net/package/Class_Subclass/
 BuildRequires:	rpm-php-pearprov >= 4.0.2-98
 Requires:	php-pear
