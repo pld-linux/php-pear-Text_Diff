@@ -25,10 +25,11 @@ multiple diff output formats.
 
 This class has in PEAR status: %{_status}.
 
-#%description -l pl
-#...
-#
-#Ta klasa ma w PEAR status: %{_status}.
+%description -l pl
+Ten pakiet dostarcza silnik do przetwarzania ró¿nic miêdzy tekstami
+oraz funkcje generuj±ce ró¿nice w wielu formatach wyj¶ciowych.
+
+Ta klasa ma w PEAR status: %{_status}.
 
 %prep
 %setup -q -c
