@@ -5,7 +5,7 @@
 %define		_pearname	%{_class}_%{_subclass}
 
 Summary:	%{_pearname} - Engine for performing and rendering text diffs
-Summary(pl):	%{_pearname} - Silnik do przetwarzania i generowania ró¿nic pomiêdzy tekstami
+Summary(pl.UTF-8):   %{_pearname} - Silnik do przetwarzania i generowania rÃ³Å¼nic pomiÄ™dzy tekstami
 Name:		php-pear-%{_pearname}
 Version:	0.2.1
 Release:	1
@@ -29,15 +29,15 @@ multiple diff output formats.
 
 In PEAR status of this package is: %{_status}.
 
-%description -l pl
-Ten pakiet dostarcza silnik do przetwarzania ró¿nic miêdzy tekstami
-oraz funkcje generuj±ce ró¿nice w wielu formatach wyj¶ciowych.
+%description -l pl.UTF-8
+Ten pakiet dostarcza silnik do przetwarzania rÃ³Å¼nic miÄ™dzy tekstami
+oraz funkcje generujÄ…ce rÃ³Å¼nice w wielu formatach wyjÅ›ciowych.
 
 Ta klasa ma w PEAR status: %{_status}.
 
 %package tests
 Summary:	Tests for PEAR::%{_pearname}
-Summary(pl):	Testy dla PEAR::%{_pearname}
+Summary(pl.UTF-8):   Testy dla PEAR::%{_pearname}
 Group:		Development/Languages/PHP
 Requires:	%{name} = %{epoch}:%{version}-%{release}
 AutoReq:	no
@@ -46,7 +46,7 @@ AutoProv:	no
 %description tests
 Tests for PEAR::%{_pearname}.
 
-%description tests -l pl
+%description tests -l pl.UTF-8
 Testy dla PEAR::%{_pearname}.
 
 %prep
