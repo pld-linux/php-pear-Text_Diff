@@ -1,15 +1,14 @@
-%define		_status		stable
-%define		_pearname	Text_Diff
+%define		pearname	Text_Diff
 %include	/usr/lib/rpm/macros.php
-Summary:	%{_pearname} - Engine for performing and rendering text diffs
-Summary(pl.UTF-8):	%{_pearname} - Silnik do przetwarzania i generowania różnic pomiędzy tekstami
-Name:		php-pear-%{_pearname}
-Version:	1.2.1
+Summary:	%{pearname} - Engine for performing and rendering text diffs
+Summary(pl.UTF-8):	%{pearname} - Silnik do przetwarzania i generowania różnic pomiędzy tekstami
+Name:		php-pear-%{pearname}
+Version:	1.2.2
 Release:	1
 License:	PHP 2.02
 Group:		Development/Languages/PHP
-Source0:	http://pear.php.net/get/%{_pearname}-%{version}.tgz
-# Source0-md5:	4701bbadaf91087cf299e0f0ad572f06
+Source0:	http://pear.php.net/get/%{pearname}-%{version}.tgz
+# Source0-md5:	2d66f40c8e0c8298281260d33e838b41
 URL:		http://pear.php.net/package/Text_Diff/
 BuildRequires:	php-pear-PEAR
 BuildRequires:	rpm-php-pearprov >= 4.4.2-11
@@ -25,13 +24,9 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 This package provides a text-based diff engine and renderers for
 multiple diff output formats.
 
-In PEAR status of this package is: %{_status}.
-
 %description -l pl.UTF-8
 Ten pakiet dostarcza silnik do przetwarzania różnic między tekstami
 oraz funkcje generujące różnice w wielu formatach wyjściowych.
-
-Ta klasa ma w PEAR status: %{_status}.
 
 %prep
 %pear_package_setup
@@ -53,7 +48,7 @@ fi
 %defattr(644,root,root,755)
 %doc install.log
 %doc optional-packages.txt
-%doc docs/%{_pearname}/docs/*
+%doc docs/%{pearname}/docs/*
 %{php_pear_dir}/.registry/*.reg
 %{php_pear_dir}/Text/*.php
 %{php_pear_dir}/Text/Diff
