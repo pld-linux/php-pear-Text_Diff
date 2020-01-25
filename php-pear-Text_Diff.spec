@@ -1,5 +1,4 @@
 %define		pearname	Text_Diff
-%include	/usr/lib/rpm/macros.php
 Summary:	%{pearname} - Engine for performing and rendering text diffs
 Summary(pl.UTF-8):	%{pearname} - Silnik do przetwarzania i generowania różnic pomiędzy tekstami
 Name:		php-pear-%{pearname}
